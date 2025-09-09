@@ -15,9 +15,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
    cd daily-inspo
 
 2. Install dependencies
+```bash
 npm install
 # or
 yarn install
+```
 
 3. Set up environment variables:
 Create a .env.local file in the root directory and add your Supabase credentials:
@@ -37,6 +39,7 @@ bun dev
 ```
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+<<<<<<< HEAD
 ## Architecture Explanation
 
 - **Frontend:** Built with Next.js and React, the frontend fetches and displays quotes.
@@ -44,3 +47,11 @@ bun dev
 - **Database:** Supabase PostgreSQL stores the quotes.
 - **Communication:** The frontend uses the Supabase client to securely fetch quotes from the database using the public API keys defined in `.env.local`.
 - **Deploy:** Hosted on Vercel.
+=======
+# Architecture Explanation
+Frontend: Built with Next.js and React, the frontend fetches and displays quotes.
+Backend: Supabase serves as the backend, providing a RESTful API and authentication.
+Database: Supabase PostgreSQL stores the quotes.
+Communication: The frontend uses the Supabase client to securely fetch quotes from the database using the public API keys defined in .env.local
+Deploy: On Vercel
+>>>>>>> 844426f63bbc9d038d21fbc9d887cde498e45079

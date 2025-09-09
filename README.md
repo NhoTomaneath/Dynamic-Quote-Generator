@@ -47,11 +47,4 @@ bun dev
 - **Database:** Supabase PostgreSQL stores the quotes.
 - **Communication:** The frontend uses the Supabase client to securely fetch quotes from the database using the public API keys defined in `.env.local`.
 - **Deploy:** Hosted on Vercel.
-=======
-# Architecture Explanation
-Frontend: Built with Next.js and React, the frontend fetches and displays quotes.
-Backend: Supabase serves as the backend, providing a RESTful API and authentication.
-Database: Supabase PostgreSQL stores the quotes.
-Communication: The frontend uses the Supabase client to securely fetch quotes from the database using the public API keys defined in .env.local
-Deploy: On Vercel
->>>>>>> 844426f63bbc9d038d21fbc9d887cde498e45079
+

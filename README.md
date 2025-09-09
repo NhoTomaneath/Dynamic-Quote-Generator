@@ -11,7 +11,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 1. Clone the repository:
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/NhoTomaneath/Dynamic-Quote-Generator.git
    cd daily-inspo
 
 2. Install dependencies

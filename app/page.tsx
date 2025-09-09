@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { QuoteLayout } from "@/app/layouts/quote-layout"
 import { QuoteHeader } from "@/app/components/quote-header"
-import { QuoteDisplay } from "@/app//components/quote-display"
+import { QuoteDisplay } from "@/app/components/quote-display"
 import { QuoteButton } from "@/app/components/quote-button"
 import { QuoteFooter } from "@/app/components/quote-footer"
 
@@ -22,11 +22,12 @@ export default function QuotePage() {
     setLoading(true)
     try {
       const response = await fetch("/api/quotes")
+
       if (response.ok) {
         const data = await response.json()
         setQuote(data)
       } else {
-        console.error("Failed to fetch quote")
+        console.error("Failed to fetch quote. Status:", response.status)
       }
     } catch (error) {
       console.error("Error fetching quote:", error)

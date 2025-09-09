@@ -15,9 +15,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
    cd daily-inspo
 
 2. Install dependencies
+```bash
 npm install
 # or
 yarn install
+```
 
 3. Set up environment variables:
 Create a .env.local file in the root directory and add your Supabase credentials:

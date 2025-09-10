@@ -39,7 +39,6 @@ bun dev
 ```
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-<<<<<<< HEAD
 ## Architecture Explanation
 
 - **Frontend:** Built with Next.js and React, the frontend fetches and displays quotes.

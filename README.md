@@ -42,7 +42,7 @@ bun dev
 ## Architecture Explanation
 
 - **Frontend:** Built with Next.js and React, the frontend fetches and displays quotes.
-- **Backend:** Supabase serves as the backend, providing a RESTful API and authentication.
+- **Backend:** API route using Next.js's App Router conventions.
 - **Database:** Supabase PostgreSQL stores the quotes.
 - **Communication:** The frontend uses the Supabase client to securely fetch quotes from the database using the public API keys defined in `.env.local`.
 - **Deploy:** Hosted on Vercel.
